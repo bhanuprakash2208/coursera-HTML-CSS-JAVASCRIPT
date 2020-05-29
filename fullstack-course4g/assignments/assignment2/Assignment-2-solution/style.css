@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	box-sizing: border-box;
 	margin:0;
@@ -81,4 +82,89 @@ h1{
 	/*height: 180px;
 	/*margin: 10px 10px 10px 10px;*/
 	/*border:2px solid green;
+=======
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.row{
+	width:100;
+}
+body{
+	background:	#F0E68C; 
+}
+p{
+	padding: 35px 15px 15px 15px;
+	font-size: 120%;
+	font-weight: 500;
+	font-family: "Arial";
+
+}
+#first{
+	background: #DB7093;
+	right:0px;
+}
+#second{
+	background: red;
+	right:0px;
+	color:white;
+}
+#three{
+	background: #8B4513;
+	right:0px;
+}
+.heading{
+	height:30px;
+	width:100px;
+	text-align: center;
+	padding: 3px;
+	position: absolute;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+section{
+	margin: 10px 10px 10px 10px;
+	border:2px solid black;
+	position:relative;
+	height:150px;
+	overflow:hidden;
+	background:#778899;
+}
+h1{
+	text-align: center;
+	font-family: "Times New Roman";
+	color: #0000CD;
+	margin: 30px;
+}
+@media (min-width: 992px){
+	.col-lg-4{
+		width:33.33%;
+		float:left;
+			}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width:50%;
+		float:left;
+	}
+	.col-md-12{
+		width:100%;
+		float:left;
+	}
+}
+@media(max-width: 767px){
+	.col-sm-12{
+		width:100%;
+		float:left;
+	}
+	
+}
+/*.item-block{
+	/*position:relative;*/
+	/*height: 180px;
+	/*margin: 10px 10px 10px 10px;*/
+	/*border:2px solid green;
+>>>>>>> e5aad393fea8486fe3449c510286093efdb9b2b7
 	/*background: brown;*/
