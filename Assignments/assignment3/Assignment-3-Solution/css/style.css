@@ -1,0 +1,137 @@
+body {
+  font-size: 16px;
+  background-color: #751305b3;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #500911;
+  border-radius: 0;
+  border: 0;
+}
+
+/*#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}*/
+
+.navbar-brand {
+  padding: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #34d221;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+ /*.navbar-brand p { /* Kosher cert 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K 
+  vertical-align: middle;
+}*/
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #d2f706 ;
+  font-size:20px;
+  font-weight: bolder;
+  text-align: center;
+}
+#nav-list a:hover {
+background-color: #BDBDBD;
+  border-radius: 25px;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/*#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number 
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver 
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  background-color:#f7ebed;
+}
+#collapsable-nav{
+  padding:0 30px 0 30px;
+}
+/* END HEADER */
+
+/* BODY */
+.menu-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Times new roman";
+  color:black;
+  font-weight: bold;
+}
+/*
+.container .row div{
+  border:2px solid green;
+}
+/*#re{
+   border:2px solid pink;
+}
+
+.row>div{
+  margin:20px;
+}
+*/
+.sec-content h3{
+  margin-top: 0;
+  margin-bottom:20px;
+  font-weight:bold;
+  color:blue;
+}
+.sec-content{
+  padding:25px;
+  background-color: #F0E68C;
+  border:2px solid black;
+  margin:20px;
+  overflow: auto;
+  font-family: Helvetica;
+
+  border-radius:30px;
+  box-shadow: 1px 1px 60px #18580b;
+  font-size: 19px;
+  color:black;
+}
+
+hr{
+  margin:0px 20px 0px 20px;
+
+}
+
